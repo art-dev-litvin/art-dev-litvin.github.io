@@ -20,7 +20,7 @@ export const developerInfo: TDeveloperInfo = {
       position: "Front-End Developer",
       previewSrc: ProjectSrc1,
       duration: "6 months",
-      href: "",
+      href: "https://www.kaisa.io/",
       description:
         "The Kaisa app is designed to collect and validate user inputs for structured data to help organizations streamline data entry and processing. Users interact with a dynamic, responsive form that adjusts based on their inputs, ensuring data is captured accurately and efficiently. The app validates entries in real time, reducing errors and improving data quality. Integrated with Kaisa’s backend, the app securely submits the collected data for further processing. The streamlined design ensures fast performance and accessibility across devices, providing a seamless experience for users.",
       technologies: "Next.js, ReactJS, TailwindCSS, core-js, Webpack",
@@ -28,28 +28,30 @@ export const developerInfo: TDeveloperInfo = {
         "Using Next.js, React, and TailwindCSS, I successfully transferred Figma mockups into a fully functional, visually appealing application. I designed a custom, responsive, and user-friendly form that aligned seamlessly with Kaisa's branding. The form included dynamic fields that adapted based on user input, enabling structured data capture, along with real-time validation to provide instant feedback for data entry errors. To ensure a smooth user experience, I integrated the form with the backend via secure API requests and optimized the frontend code for fast load times without compromising functionality.",
     },
     {
-      title: "Truecar",
-      position: "Front-End Developer",
-      previewSrc: ProjectSrc3,
-      duration: "6 months",
-      href: "",
-      description:
-        "Truecar is an online platform where US-based users can sell their cars quickly. Also, users can compare cars, buy new or used cars, etc.",
-      technologies: "ReactJS, Next.js, Tailwind CSS, Redux Toolkit, Vercel",
-      results:
-        "The result is a fully functional, high-performance car marketplace web app with a modern, responsive design and smooth user experience. It offers dynamic search, advanced filtering, and detailed car pages, making it easy for users to find vehicles based on their preferences. The app is optimized for speed, accessibility, and scalability, with automated testing and deployment ensuring long-term maintainability.",
-    },
-    {
-      title: "Exponent",
+      title: "Makemefed",
       position: "Front-End Developer",
       previewSrc: ProjectSrc2,
       duration: "6 months",
-      href: "",
+      href: "https://makemefed.com/en/about-us",
       description:
-        "Exponent is a platform for online training, interview preparation, finding a mentor, interview practice, and online counseling.",
-      technologies: "React.JS, Next.JS, TailwindCSS, Redux, TypeScript",
+        "Makemefed is a comprehensive meal planning and recipe management platform. Users can browse, filter, and manage recipes, plan weekly meals, and maintain shopping lists. The app supports user authentication, comments, and multi-language support (i18n). It features dynamic forms, real-time updates, and integrates with a backend for data persistence and user management. The design emphasizes usability, accessibility, and seamless interaction, making meal planning and cooking organization efficient and enjoyable.",
+      technologies:
+        "Next.js, React, TypeScript, MUI, Redux Toolkit, next-intl, Formik, Yup, Axios, Storybook.",
       results:
-        "I developed an interactive interview preparation platform using Next.js, React JS, TypeScript, and TailwindCSS, featuring courses, assignments, and mentorship. Implemented user authentication, ensuring a secure and personalized experience for users. Conducted code reviews to maintain high-quality standards.",
+        "I developed a fully functional, responsive meal planning and recipe management web application using Next.js, React, and TypeScript, transforming Figma designs into interactive user interfaces. I implemented dynamic forms with Formik and Yup, integrated Redux Toolkit for state management with persistence, and enabled seamless API communication using Axios. The app supports multi-language (i18n) with next-intl, features advanced filtering, real-time updates, and user authentication, and includes a modular component system built with MUI and Storybook for scalable UI development. I ensured code quality with ESLint and Prettier, and optimized the frontend for performance, accessibility, and maintainability.",
+    },
+    {
+      title: "Rebatr",
+      position: "Front-End Developer",
+      previewSrc: ProjectSrc3,
+      duration: "6 months",
+      href: "https://dev.rebatr.com/landing/home/shopper",
+      description:
+        "Rebatr is a web app that helps Amazon sellers and shoppers manage rebate campaigns and track product rankings with visual insights.",
+      technologies:
+        "Next.js, React 19, Tailwind CSS, Radix UI, Zustand, Axios, Formik, Yup, Swiper, TypeScript",
+      results:
+        "I developed a modern Amazon rebate management platform using Next.js, React 19, TypeScript, and Tailwind CSS, featuring custom dashboards for sellers and shoppers, secure authentication, intuitive campaign management tools, visual rank tracking with interactive image uploads, responsive UI components, and built-in support resources such as FAQs and contact forms to enhance user experience.",
     },
   ],
   skillsAndExpertise: [
@@ -57,13 +59,15 @@ export const developerInfo: TDeveloperInfo = {
     "TypeScript",
     "Next.js",
     "React",
-    "React storybook",
     "Redux.js",
     "Redux Toolkit",
     "Redux Thunk",
-    "MaterialUI",
+    "Framer Motion",
+    "Material UI",
     "TailwindCSS",
     "Styled components",
+    "Radix UI",
+    "DnD Kit",
     "SCSS",
     "HTML5",
     "CSS3",

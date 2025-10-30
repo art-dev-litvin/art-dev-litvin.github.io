@@ -12,38 +12,53 @@ export default function PreviousProjects({ projects }: PreviousProjectsProps) {
     <div id="previous-projects">
       <Title variant="h2">Previous projects</Title>
       <div className="flex flex-col gap-16 max-w-3xl">
-        {projects.map(({ title, duration, href, position, previewSrc, results, technologies }) => (
-          <div key={`previous-projects-${title}`} className="flex flex-col items-start gap-3">
-            <Title variant="h3" className="text-2xl dark:!text-white !text-gray-900">
-              {title}
-            </Title>
-            <a className="w-full" target="_blank" href={href}>
-              <img
-                className="w-full block h-48 shadow-sm border-2 rounded-md object-cover object-top sm:h-58 xl:h-64 2xl:h-72"
-                src={previewSrc}
-                alt={title + " preview"}
-              />
-            </a>
-            <div>
+        {projects.map(
+          ({
+            title,
+            duration,
+            href,
+            position,
+            previewSrc,
+            results,
+            technologies,
+          }) => (
+            <div
+              key={`previous-projects-${title}`}
+              className="flex flex-col items-start gap-3">
+              <Title
+                variant="h3"
+                className="text-2xl dark:!text-white !text-gray-900">
+                {title}
+              </Title>
+              <a className="w-full" target="_blank" href={href}>
+                <img
+                  className="w-full block h-48 shadow-sm border-2 rounded-md object-cover object-top sm:h-58 xl:h-64 2xl:h-72"
+                  src={previewSrc}
+                  alt={title + " preview"}
+                />
+              </a>
               <div>
-                <span className="font-bold">Result: </span>
-                {results}
+                <div>
+                  <span className="font-bold">Result: </span>
+                  {results}
+                </div>
+                <div className="flex gap-1 mt-3">
+                  <span>
+                    <span className="font-bold">Technologies -</span>{" "}
+                    {technologies}
+                  </span>
+                </div>
+                <div>
+                  <span className="font-bold">Duration -</span> {duration}
+                </div>
+                <div>
+                  <span className="font-bold">Position -</span> {position}
+                </div>
               </div>
-              <div className="flex gap-1 mt-3">
-                <span>
-                  <span className="font-bold">Technologies -</span> {technologies}
-                </span>
-              </div>
-              <div>
-                <span className="font-bold">Duration -</span> {duration}
-              </div>
-              <div>
-                <span className="font-bold">Position -</span> {position}
-              </div>
+              <LinkWithBrackets href={href}>See work</LinkWithBrackets>
             </div>
-            <LinkWithBrackets href={href}>See work</LinkWithBrackets>
-          </div>
-        ))}
+          )
+        )}
       </div>
     </div>
   );
