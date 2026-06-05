@@ -32,7 +32,7 @@ export default function PreviousProjects({ projects }: PreviousProjectsProps) {
               </Title>
               <a className="w-full" target="_blank" href={href}>
                 <img
-                  className="w-full block h-48 shadow-sm border-2 rounded-md object-cover object-top sm:h-58 xl:h-64 2xl:h-72"
+                  className="w-full block h-48 shadow-sm border-2 dark:border-gray-500 rounded-md object-cover object-top sm:h-58 xl:h-64 2xl:h-72"
                   src={previewSrc}
                   alt={title + " preview"}
                 />
@@ -57,7 +57,7 @@ export default function PreviousProjects({ projects }: PreviousProjectsProps) {
               </div>
               <LinkWithBrackets href={href}>See work</LinkWithBrackets>
             </div>
-          )
+          ),
         )}
       </div>
     </div>
