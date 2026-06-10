@@ -15,6 +15,7 @@ export const developerInfo: TDeveloperInfo = {
   socials: {
     github: "https://github.com/art-dev-litvin",
     wellfound: "https://wellfound.com/u/artem-litvin-1",
+    gmail: "mailto:artem.litvin.develop@gmail.com",
   },
   description:
     "Full-Stack JS/TS Developer with 5+ years of experience delivering scalable web apps and SaaS from MVP to production. Strong expertise across frontend, backend, and cloud infrastructure.\n\n### Technical Skills\n* **Frontend:** React, Next.js, TypeScript, Redux Toolkit, Zustand, Tailwind CSS, Shadcn UI.\n* **Backend:** Node.js, NestJS, PostgreSQL, MongoDB, REST/GraphQL APIs, WebSockets.\n* **Cloud & DevOps:** AWS (EC2, S3, Lambda), Docker, CI/CD pipelines.\n\nPassionate about clean architecture and performance optimization. Efficiently leverage AI tools (Claude Code, GitHub Copilot) to accelerate delivery. Proven track record of building secure, user-centric applications in Agile environments.",
